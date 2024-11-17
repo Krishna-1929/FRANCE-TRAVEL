@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Chamonix Mont-Blanc</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            margin-top: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 9%;
+            background-color: transparent;
+            filter: drop-shadow(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 3rem;
+            color: #b74b4b;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        nav a {
+            font-size: 1.8rem;
+            color: white;
+            margin-left: 4rem;
+            font-weight: 500;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #b74b4b;
+            border-bottom: 3px solid #b74b4b;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 5rem 9% 5rem;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 5rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+
+        .content p {
+            font-size: 1.8rem;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            color: #b74b4b;
+        }
+
+        .content img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .content a {
+            font-size: 1.8rem;
+            color: #b74b4b;
+            padding: 1rem 2.5rem;
+            border: 2px solid #b74b4b;
+            border-radius: 4rem;
+            background-color: transparent;
+            text-align: center;
+            transition: 0.3s ease;
+            display: inline-block;
+        }
+
+        .content a:hover {
+            background-color: #b74b4b;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Group 8</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cuisine.html">Cuisine</a>
+            <a href="places.html">Places</a>
+            <a href="shopping.html">Shopping</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h1>Discover Chamonix Mont-Blanc</h1>
+        <p>Chamonix, nestled at the foot of the majestic Mont-Blanc, is one of the most popular destinations for outdoor enthusiasts. Known for its world-class skiing, mountaineering, and hiking, this alpine town offers year-round adventure amidst some of Europe's most stunning mountain landscapes.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Mont_Blanc_2014-07-25_15-05-42.jpg" alt="Mont-Blanc">
+        <p>Mont-Blanc, the highest mountain in the Alps, is a magnet for climbers and adventurers from around the world. Whether you're hiking, skiing, or simply admiring the views, Mont-Blanc offers a true taste of nature's grandeur.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Chamonix_vallee_france.jpg" alt="Chamonix Valley">
+        <p>The Chamonix Valley is surrounded by towering mountains and dotted with charming alpine villages. Visitors can explore the valley by cable car or on foot to enjoy panoramic views and explore its many attractions, including glacial walks and alpine lakes.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Chamonix-MontBlanc_february_2017.jpg" alt="Skiing in Chamonix">
+        <p>Chamonix is renowned for its ski resorts, offering a variety of slopes suitable for all skill levels. Whether you're a beginner or an expert skier, the area's diverse terrain provides the perfect winter sports experience.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Chamonix_Mont_Blanc_Vallee_View.jpg" alt="Chamonix View">
+        <p>In summer, Chamonix transforms into a hiking paradise with scenic trails, stunning vistas, and crystal-clear lakes. The town also offers great dining, luxury hotels, and vibrant après-ski culture for those looking to relax after a day of adventure.</p>
+
+        <a href="https://www.chamonix.com/" target="_blank">Explore More: Chamonix Official Website</a>
+    </section>
+</body>
+</html>
